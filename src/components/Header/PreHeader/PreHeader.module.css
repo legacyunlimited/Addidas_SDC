@@ -1,0 +1,37 @@
+.preheader-container {
+  background-color: black;
+  height: 39px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.preheader-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preheader-details {
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  color: white;
+  animation: fadeIn 2.5s infinite alternate;
+}
+
+.preheader-details-container img {
+  height: 35px;
+  width: 35px;
+  padding-left: 10px;
+  animation: fadeIn 2.5s infinite alternate;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

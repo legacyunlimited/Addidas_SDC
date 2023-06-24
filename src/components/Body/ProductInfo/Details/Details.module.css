@@ -1,0 +1,24 @@
+.details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 50%;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+
+.toggle-btn {
+  width: 100%;
+  text-align: left;
+  padding: 30px 15px;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.list-items {
+  margin: 10px;
+}

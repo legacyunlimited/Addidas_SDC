@@ -1,0 +1,71 @@
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  height: calc(var(--gallery-image-height) * 2);
+  overflow: hidden;
+  transition: 0.3s;
+}
+.gallery-container {
+  margin: 0;
+  width: calc(100% / 2);
+  height: var(--gallery-image-height);
+}
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#btn-container button {
+  border: 1px solid black;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: white;
+  /* z-index: 2; */
+  translate: 0px -20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+#gallery button:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+#gallery.show {
+  height: calc(var(--gallery-image-height) * 5);
+}
+#gallery svg {
+  width: 25px;
+  height: 20px;
+  padding-left: 8px;
+}
+#shoe-selection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+  border: 0;
+  position: sticky;
+  bottom: 10%;
+  z-index: 4;
+}
+.shoe-selection-element {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+#shoe-selection-gallery {
+  display: flex;
+  justify-self: center;
+}
+#shoe-selection-container.static {
+  position: relative;
+  z-index: 1;
+}

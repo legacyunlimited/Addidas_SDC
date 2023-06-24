@@ -1,0 +1,15 @@
+.reviews-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-reviews-container {
+  display: flex;
+  width: 600px;
+}
+
+.item-overview-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}

@@ -1,0 +1,32 @@
+.description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.description {
+  font-size: 60%;
+  width: 50%;
+  margin: 10px;
+}
+
+.image {
+  transform: scale(.6);
+  width: 20%;
+}
+
+.toggle-btn {
+  width: 100%;
+  text-align: left;
+  padding: 30px 15px;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.paragraph {
+  font-size: 80%;
+}

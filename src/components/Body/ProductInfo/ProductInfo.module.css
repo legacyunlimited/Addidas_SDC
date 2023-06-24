@@ -1,0 +1,39 @@
+.product-info-container{
+    background-color: white;
+    width: 900px;
+    color: black;
+    font-size: 2rem;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-btn {
+    width: 900px;
+    text-align: left;
+    padding: 30px 15px;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    border-top: 2px solid #eceff1;
+    cursor: pointer;
+  }
+
+
+
+  .stars {
+    color: #2ADA71;
+    margin-left: 2px;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 125px;
+    justify-content: space-between;
+  }

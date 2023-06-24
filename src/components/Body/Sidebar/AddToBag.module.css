@@ -1,0 +1,17 @@
+#AddToBag {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+
+.AddToBag {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: white;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.rtarrowicon {
+    height: 20px;
+    width: 30px;
+}

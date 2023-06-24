@@ -1,0 +1,29 @@
+.star-rating-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 50%;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.button-container {
+    border-left: 1px solid #eceff1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.btn {
+    border: 1px solid #eceff1;
+    padding: 10px 10px;
+    transition-duration: 0.1s;
+}
+
+.btn:hover {
+    border-color: black;
+}

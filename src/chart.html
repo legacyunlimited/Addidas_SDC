@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PageSpeed Test Results</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module">
+      import { Chart } from "https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js";
+      import {
+        fetchPageSpeedInsightsData,
+        generateGraph,
+      } from "./pagespeed.js";
+      import axios from "./axios.min.js";
+
+      const urlToAnalyze = "https://react-to-next-darkknocker.vercel.app/1";
+      fetchPageSpeedInsightsData(urlToAnalyze);
+    </script>
+  </head>
+  <body>
+    <canvas id="chart" width="400" height="400"></canvas>
+  </body>
+</html>

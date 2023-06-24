@@ -1,0 +1,54 @@
+#pre-footer {
+  background-color: yellow;
+  padding: 40px;
+  font-size: 30px;
+  line-height: 32px;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  padding: 40px 30% 40px;
+}
+#member-message {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 1000;
+}
+#sign-up-btn {
+  box-shadow: 2px 2px 0 0 yellow, 2px 2px 0 1px black;
+  cursor: pointer;
+}
+#sign-up-btn:hover {
+  color: gray;
+}
+#pre-footer button {
+  background-color: black;
+  color: white;
+  border: none;
+  display: flex;
+  padding: 15px;
+}
+/* .phone {
+  display: hidden;
+} */
+#feedback {
+  background-color: #eceff1;
+}
+.feedback-text {
+  font-size: 18px;
+}
+.feedback-text h5 {
+  font-weight: 700;
+}
+#back-to-btn {
+  border: none;
+}
+#ctrl-container {
+  display: flex;
+}
+#footer-container {
+  display: flex;
+  flex-direction: column;
+}
+.ctrl-btn {
+  width: 50%;
+}

@@ -1,0 +1,47 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.review-header {
+    font-size: 50%;
+    margin: 10px;
+}
+
+.overall-review-container {
+    border-bottom: 2px solid #eceff1;
+    margin: 10px;
+}
+
+.review-box {
+    width: 250px;
+    padding: 15px 15px;
+    background-color: #2ADA71;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.comfort {
+    font-size: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.quality {
+    font-size: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}

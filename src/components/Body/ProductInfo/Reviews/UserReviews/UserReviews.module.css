@@ -1,0 +1,52 @@
+.user-reviews-container {
+    margin: 10px;
+}
+
+.user-review {
+    font-size: 45%;
+    transform: translateX(25px);
+}
+
+.header {
+    font-size: medium;
+}
+
+.stars {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #767677;
+}
+
+.sort-btn {
+    border: 1px solid #767677;
+    padding: 20px 25px;
+    display: flex;
+    margin: 15px;
+    transform: translateX(400px);
+    transition-duration: 0.1s;
+}
+
+.sort-btn:hover {
+    border-color: black;
+}
+
+.report {
+    transform: translateX(425px);
+    margin: 20px;
+}
+
+.thumb {
+    transform: scale(.4);
+}
+
+.helpful {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

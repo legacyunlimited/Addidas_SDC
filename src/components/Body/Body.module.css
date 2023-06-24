@@ -1,0 +1,29 @@
+#body-container {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+#sidebar-container {
+  width: 520px;
+  position: sticky;
+  top: 10%;
+  bottom: 10%;
+}
+/* @media screen and (min-width: 960px) {
+  .body-container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280x) {
+  .body-container {
+    display: flex;
+  }
+} */

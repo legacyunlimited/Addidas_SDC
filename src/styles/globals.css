@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "AdihausDIN-CondMediIta";
+  src: url("./fonts/AdihausDIN-CondMediIta.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "adihausregular";
+  src: url("./fonts/adihausregular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "adihausbold";
+  src: url("./fonts/adihausbold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "AdihausDIN-CondBoldItalic";
+  src: url("./fonts/AdihausDIN-CondBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "AdihausDIN-CondIta";
+  src: url("./fonts/AdihausDIN-CondIta.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+:root {
+  --font-family-adihaus-cond-medi-ita: "AdihausDIN-CondMediIta", Inter,
+    system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-adihaus-regular: "adihausregular", Inter, system-ui, Avenir,
+    Helvetica, Arial, sans-serif;
+  --font-family-adihaus-bold: "adihausbold", Inter, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
+  --font-family-adihaus-cond-bold-italic: "AdihausDIN-CondBoldItalic", Inter,
+    system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-adihaus-cond-ita: "AdihausDIN-CondIta", Inter, system-ui, Avenir,
+    Helvetica, Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-adihaus-regular);
+  font-size: 62.5%;
+}
+
+* {
+  --gallery-image-height: 700px;
+}
+.gallery-container video,
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="150" height="15" viewBox="0 0 15 15"><rect x="4" y="4" width="200" height="200" fill="black"/><path d="M7.5 0H8.5V6H15V7H8.5V13H7.5V7H1V6H7.5V0Z" fill="black"/></svg>')
+      7.5 7.5,
+    auto;
+}
+video {
+  cursor: pointer;
+}
+
+button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #3a3e4f;
+}
